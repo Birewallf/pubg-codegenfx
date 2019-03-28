@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="99.0" prefWidth="257.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="blackwall.App">
+    <children>
+        <ToggleButton fx:id="exit" layoutX="421.0" mnemonicParsing="false" onAction="#onExit" prefHeight="25.0" prefWidth="32.0" styleClass="gui-exit-button" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="0.0" />
+        <ToggleButton layoutX="389.0" mnemonicParsing="false" onAction="#onMin" prefHeight="24.0" prefWidth="32.0" styleClass="gui-min-button" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0" />
+      <ToggleButton layoutX="179.0" layoutY="33.0" mnemonicParsing="false" onAction="#onActionToggle" prefHeight="17.0" prefWidth="64.0" styleClass="gui-button" text="Gen">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </ToggleButton>
+      <Label layoutX="173.0" layoutY="74.0" text="telegram: @birewallg">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <TextField fx:id="outputTF" layoutX="13.0" layoutY="30.0" prefHeight="25.0" prefWidth="154.0" />
+      <ToggleButton layoutX="179.0" layoutY="55.0" mnemonicParsing="false" onAction="#onActionCopy" prefHeight="12.0" prefWidth="64.0" styleClass="gui-button" text="Copy">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </ToggleButton>
+
+    </children>
+</AnchorPane>
